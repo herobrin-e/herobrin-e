@@ -17,8 +17,14 @@ public class HeroBrine{
     static void about(){
         String goals = {"Open Source"};
         for(byte control = 0; control <= goals.length; control++){
-            System.out.println("Code to contribute to " + goals[0] + " framework");
+            System.out.println("Code to contribute to " + goals[0] + "Software & Communties");
         }
+    }
+    static void main(String args[]){
+       HeroBrine brine = new HeroBrine();
+       brine.languages();
+       brine.frameworks();
+       brine.about();
     }
 }
 ```
