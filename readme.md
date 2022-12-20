@@ -9,7 +9,7 @@ public class HeroBrine{
         }
     }
     static void frameworks(){
-        String frameworks = {"Next.JS","Spring Boot","Arduino","LightGL","SciPy","NumPy","Pandas","OpenCV","TensorFlow","PyTorch"};
+        String frameworks = {"Next.JS","Spring Boot","Arduino","Express.JS","PyTorch","Keras","TensorFlow"};
         for(byte control = 0; control <= frameworks.length; control++){
             System.out.println("I write in " + frameworks[0] + " framework");
         }
